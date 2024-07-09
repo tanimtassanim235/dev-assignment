@@ -52,10 +52,35 @@ nav li a {
 
 /* Nav style end */
 
-/* banner style start */
+/* first section style start */
 
-.banner-container{
-    background-image: url('images/');
-    background-repeat: no-repeat;
-    background-size: cover;
+.first-section-container {
+  width: 1240px;
+  height: 652px;
+  background-image: url("/images/herobg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-section-content {
+  width: 1240px;
+  height: 581px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.first-section-title {
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+.first-section-description {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
 }
