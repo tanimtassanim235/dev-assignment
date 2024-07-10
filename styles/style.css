@@ -298,3 +298,117 @@ a:link {
 }
 
 /* second pic div end here */
+
+/* third pic div start here */
+.third-pic-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 133px;
+  width: 946px;
+  height: 336px;
+  margin: 0px auto;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.third-pic-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px;
+  margin: 16px 0px;
+}
+.third-pic-description {
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgba(13, 19, 33, 0.7);
+}
+
+/* third pic dev end */
+
+/* support session styles */
+
+.support {
+  background-image: url("/images/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1140px;
+  height: 550px;
+  margin: 20px auto;
+  padding: 64px 48px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url(Email);
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 120px;
+  top: 3300px;
+  right: 10px;
+  left: 10px;
+}
+.support-container {
+  width: 730px;
+  height: 104px;
+  padding: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 64px 48px 64px 48px;
+}
+.support-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 16px;
+}
+.support-description {
+  width: 606px;
+  height: 52px;
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 24px;
+}
+.sub {
+  display: flex;
+  gap: 18px;
+}
+.writing-area {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+.last-btn {
+  width: 120px;
+  height: 57px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 18px;
+  font-size: 20px;
+  font-weight: 600;
+}
