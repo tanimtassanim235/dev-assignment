@@ -7,6 +7,9 @@
 }
 
 /* shared style for element */
+#footer {
+  text-decoration: none;
+}
 .text-center {
   text-align: center;
 }
@@ -72,6 +75,7 @@ nav li a {
   width: 1240px;
   height: 652px;
   background-image: url("/images/herobg.png");
+  margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 80px;
@@ -281,6 +285,7 @@ a:link {
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0%;
+  color: rgba(13, 19, 33, 0.7);
   text-align: left;
   padding: 0px;
   width: 477px;
@@ -309,7 +314,7 @@ a:link {
   width: 946px;
   height: 336px;
   margin: 0px auto;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   padding: 48px;
   border-radius: 16px;
   background: linear-gradient(
@@ -323,6 +328,7 @@ a:link {
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0%;
+  color: rgba(13, 19, 33, 0.7);
   text-align: left;
   padding: 0px;
   margin: 16px 0px;
@@ -347,8 +353,9 @@ a:link {
   background-size: cover;
   width: 1140px;
   height: 550px;
-  margin-top: 60px;
+  border: 2px solid red;
   margin: 0px auto;
+  margin-top: 80px;
   padding: 64px 48px;
   background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
     url(Email);
