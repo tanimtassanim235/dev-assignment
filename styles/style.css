@@ -348,7 +348,7 @@ a:link {
 /* support session styles */
 
 .support {
- background-image: url('../images/handshake.jpg');
+ background-image: url('/images/handshake.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 1140px;
