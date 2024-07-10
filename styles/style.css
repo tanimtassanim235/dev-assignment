@@ -309,6 +309,7 @@ a:link {
   width: 946px;
   height: 336px;
   margin: 0px auto;
+  margin-bottom: 50px;
   padding: 48px;
   border-radius: 16px;
   background: linear-gradient(
@@ -346,7 +347,8 @@ a:link {
   background-size: cover;
   width: 1140px;
   height: 550px;
-  margin: 20px auto;
+  margin-top: 60px;
+  margin: 0px auto;
   padding: 64px 48px;
   background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
     url(Email);
@@ -355,11 +357,8 @@ a:link {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 120px;
-  top: 3300px;
-  right: 10px;
-  left: 10px;
+  border-radius: 2px 2px 2px 2px black;
+  margin-bottom: 30px;
 }
 .support-container {
   width: 730px;
@@ -411,4 +410,36 @@ a:link {
   padding: 18px;
   font-size: 20px;
   font-weight: 600;
+}
+.footer-title {
+  width: 955px;
+  height: 80px;
+  padding: 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.footer-sameline {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.footer-text {
+  width: 456px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  background-color: #ffffff;
+}
+.footer-icon {
+  gap: 10px;
 }
