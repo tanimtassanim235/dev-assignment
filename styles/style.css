@@ -22,7 +22,19 @@
   box-sizing: border-box;
   cursor: pointer;
 }
+.main-btn-container{
+  text-align: center;
+}
 
+.main-btn {
+  background-color: #0d1321;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 18px 20px;
+
+}
 /* Nav Style Start here */
 
 nav {
@@ -60,6 +72,7 @@ nav li a {
   background-image: url("/images/herobg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,10 +90,55 @@ nav li a {
 .first-section-title {
   font-size: 48px;
   font-weight: 800;
+  line-height: 68px;
   text-align: center;
 }
 .first-section-description {
   font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 24px 0px;
+  opacity: 0.7;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-section-container{
+  width: 1240px;
+  height: 775px;
+  margin-top: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-section-content{
+  width: 852px;
+  height: 113px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.second-section-title{
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.second-section-description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.player{
+  border-radius: 16px;
+  overflow: hidden;
+  z-index: 1;
 }
